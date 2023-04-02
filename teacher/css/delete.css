@@ -1,0 +1,40 @@
+* { 
+    padding: 0;
+    margin: 0;
+}
+.form-login {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    top: 137px;
+    text-align: center;
+    background: #f6f6f3;
+    padding: 52px;
+    border: 1px solid silver;
+    box-shadow: -1px 2px 8px 6px #00000029;
+    border-radius: 3px;
+}
+.form-login h5 {
+    position: relative;
+    top: -22px;
+    font-family: 'Cairo',sans-serif;
+    font-weight: bolder;
+}
+button.btn-custom {
+    position: relative;
+    top: 18px;
+    width: 92%;
+    height: 38px;
+    border: 0;
+    background: var(--color-br);
+    color: #fff;
+    font-family: 'Cairo',sans-serif;
+    border-radius: 3px;
+}
+button {
+    width: 50%;
+    margin-bottom: 10px;
+}
+.alert.alert-success {
+    margin:  0 auto;
+}
