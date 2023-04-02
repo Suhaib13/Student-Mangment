@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+:root { 
+    --color-br : #e26868;
+}
+body{
+    background: #d8d9cf !important;
+    overflow: hidden;
+}
+.form-studnts {
+    position: relative;
+    width: 60%;
+    text-align: center;
+    margin-left: 69px;
+    top: 20px;
+    font-family: 'Cairo';
+}
+.form-studnts h5 {
+    font-weight: bolder;
+}
+button.btn-custom {
+    position: relative;
+    top: 18px;
+    width: 92%;
+    height: 38px;
+    border: 0;
+    background: var(--color-br);
+    color: #fff;
+    font-family: 'Cairo',sans-serif;
+    border-radius: 3px;
+}
